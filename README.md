@@ -38,8 +38,7 @@ Make sure you have **Node.js** installed. You can download it from [here](https:
 ```bash
 npm install
 ```
-3. 
-**Start the development server:**
+3. **Start the development server:**
 ```bash
 npm start
 ```
