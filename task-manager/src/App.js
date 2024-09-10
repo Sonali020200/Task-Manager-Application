@@ -5,8 +5,8 @@ const App = () => {
   const [newTask, setNewTask] = useState('');
   const [editingTask, setEditingTask] = useState(null);
   const [editingText, setEditingText] = useState('');
-  const [popupMessage, setPopupMessage] = useState(null); // State for pop-up message
-  const [popupType, setPopupType] = useState(''); // State to determine if pop-up is success or error
+  const [popupMessage, setPopupMessage] = useState(null); 
+  const [popupType, setPopupType] = useState(''); 
 
   // Function to display the popup and hide it after 3 seconds
   const showPopup = (message, type) => {
